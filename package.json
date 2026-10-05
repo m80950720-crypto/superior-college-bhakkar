@@ -1,0 +1,20 @@
+{
+  "name": "superior-college-bhakkar",
+  "version": "1.0.0",
+  "description": "Official website and AI admissions assistant for Superior College Bhakkar, powered by Groq.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["college", "chatbot", "groq", "express", "tailwind"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
